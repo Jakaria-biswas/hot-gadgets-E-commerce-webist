@@ -4,9 +4,210 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hot-gedgets-E-commerce-websit</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="js/all.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+<div class="container"> 
+     <nav class="navbar navbar-expand-sm navbar-light bg-light"> 
+          <div class="navbar-brand"> 
+              <img src="logo.png" alt="">
+          </div>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-toggle"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" class="" id="navbar-toggle">
+         <ul class="navbar-nav ml-auto font-weight-bold "> 
+             <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+             <li class="nav-item"><a href="#smartphone" class="nav-link">Smartphone</a></li><li class="nav-item"><a href="#laptop" class="nav-link">Laptop</a></li>
+             <li class="nav-item"><a href="#categories" class="nav-link">Categories</a></li>
+         </ul>
+        </div>
+     </nav>
+</div>
+
+
+<div class="container"> 
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+             <div class="row align-items-center"> 
+                 <div class="col-md-7"> 
+                   <h1>Mackbook Pro</h1>
+                   <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                </p>
+                <button class="buy-now-button">BUY NOW <i class="fas fa-long-arrow-alt-right">&nbsp;</i></button>
+                 </div>
+                 <div class="col-md-5"> 
+                    <img class="d-block w-100" src="banner-products/product-1.png" alt="First slide">
+                 </div>
+             </div>
+          </div>
+          <div class="carousel-item">
+             <div class="row align-items-center"> 
+                 <div class="col-md-7"> 
+                    <h1>Mackbook Pro</h1>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                 </p>
+                 <button class="buy-now-button">BUY NOW <i class="fas fa-long-arrow-alt-right">&nbsp;</i></button>
+                 </div>
+                 <div class="col-md-5"> 
+                    <img class="d-block w-100" src="banner-products/slider-1.png" alt="Second slide">
+                 </div>
+             </div>
+          </div>
+          <div class="carousel-item">
+              <div class="row align-items-center">
+                  <div class="col-md-7"> 
+                    <h1>Mackbook Pro</h1>
+                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                 </p>
+                 <button class="buy-now-button">BUY NOW <i class="fas fa-long-arrow-alt-right">&nbsp;</i></button>
+                  </div>
+                  <div class="col-md-5">
+                    <img class="d-block w-100" src="banner-products/slider-3.png" alt="Third slide">
+
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="container" id="smartphone"> 
+     <div> 
+        <h2 class="float-left">Smartphone</h2>
+        <span class="float-right" style="color:orange;cursor:pointer;">Se All</span>
+     </div>
+     <div class="clearfix"></div>
+
+     <div class="card-deck ">
+        <div class="card ">
+          <img class="card-img-top" src="phone/phone-1.png" alt="Card image cap">
+          <div class="card-body ">
+            <h5 class="card-title text-center">Redmi</h5>
+            <p class="card-text text-center">Some quick example text to build on
+                the card title.</p>
+                <h3 class="text-center">$699</h3>
+                <button class="buy-now-button  d-block m-auto">BUY NOW <i class="fas fa-long-arrow-alt-right">&nbsp;</i></button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="phone/phone-2.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center">iPhone 11 Pro</h5>
+            <p class="card-text text-center">Some quick example text to build on
+                the card title.</p>
+                <h3 class="text-center">$999</h3>
+                <button class="buy-now-button  d-block m-auto">BUY NOW <i class="fas fa-long-arrow-alt-right">&nbsp;</i></button>
+
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="phone/phone-3.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center">Samsung Galaxy Note10+</h5>
+            <p class="card-text text-center">Some quick example text to build on
+                the card title.</p>
+            <h3 class="text-center">$799</h3>
+                <button class="buy-now-button  d-block m-auto">BUY NOW <i class="fas fa-long-arrow-alt-right">&nbsp;</i></button>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+<div class="container" id="laptop"> 
+     <div> 
+         <h2 class="float-left">Laptop</h2>
+         <span class="float-right" style="color:orange;cursor:pointer;">See All</span>
+     </div>
+     <div class="clearfix"></div>
+
+     <div class="card-deck ">
+        <div class="card ">
+          <img class="card-img-top" src="laptop/product-1.png" alt="Card image cap">
+          <div class="card-body ">
+            <h5 class="card-title text-center">Asus VivoBook </h5>
+            <p class="card-text text-center">Some quick example text to build on
+                the card title.</p>
+                <h3 class="text-center">$699</h3>
+                <button class="buy-now-button  d-block m-auto">BUY NOW <i class="fas fa-long-arrow-alt-right">&nbsp;</i></button>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="laptop/product-2.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center">Razer Blade 15 </h5>
+            <p class="card-text text-center">Some quick example text to build on
+                the card title.</p>
+                <h3 class="text-center">$2799</h3>
+                <button class="buy-now-button  d-block m-auto">BUY NOW <i class="fas fa-long-arrow-alt-right">&nbsp;</i></button>
+             </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="laptop/product-3.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title text-center">Xiaomi Mi Notebook Pro</h5>
+            <p class="card-text text-center">Some quick example text to build on
+                the card title.</p>
+            <h3 class="text-center">$999</h3>
+                <button class="buy-now-button d-block m-auto">BUY NOW <i class="fas fa-long-arrow-alt-right">&nbsp;</i></button>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+
+<div class="container" id="categories"> 
+    <h2>Categories</h2>
+    <div class="bd"></div>
+    <div class="row align-items-center"> 
+         <div class="col-md-6">
+             <div class="row"> 
+                 <div class="col-md-3">
+                    <div class="item-img"> 
+                        <img class="mt-5" src="categories/bag.png" alt="">
+                        <p class="text-center">Bag</p>
+                    </div>
+                 </div>
+                 <div class="col-md-3 ">
+                     <div class="item-img" > 
+                         <img class=" mb-2" src="categories/perfume.png" alt="">
+                         <p class="text-center">Beauty </p>
+                        </div>
+                        <div class="item-img"> 
+                         <img class=" " src="categories/shoe.png" alt="">
+                         <p class="text-center">Shoes</p>
+                        </div>  
+                 </div>
+             </div>
+
+         </div>
+         <div class="col-md-6 align-items-center">
+              <div >
+             <img class="w-100" src="Categories/pale-order.png" alt="">
+            </div>
+         </div>
+    </div>
+</div>
+
+
+
+
+<footer> 
+    <small>&copy; Gedgets E-commerce website-2020, All reserved Gopalganj, Bangladesh</small>
+</footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
